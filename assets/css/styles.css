@@ -7,9 +7,8 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: #663399;
+  --second-color: #ffeaeadc;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -24,6 +23,8 @@
   /*===== z index =====*/
   --z-back: -10;
   --z-fixed: 100;
+  /*===== background =====*/
+  --bg-color: #000000;
 }
 
 @media screen and (min-width: 968px) {
@@ -38,6 +39,7 @@
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
+  background-color: var(--bg-color);
 }
 
 html {
@@ -117,7 +119,6 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -386,7 +387,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  background-color: var(--bg-color);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
