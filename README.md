@@ -1,3 +1,1 @@
-# Portfolio Responsive Complete
-
-A Clean & Nice Responsive Portfolio
+Clean, Nice, Minimal & Responsive Portfolio
